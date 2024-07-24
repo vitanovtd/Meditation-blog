@@ -83,11 +83,31 @@ body {
   /* overflow: hidden; */
 }
 
-.main-section {
+.second-section {
   background-color: #f9faf8;
   padding: 40px 80px;
+  text-align: center;
 }
 
-.main-section p {
+.second-section h2 {
+  font-size: 24px;
+  color: #111827;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.second-info-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.second-info-box {
+  background-color: #fff;
+  border: 2px solid #3b82f6;
+  border-radius: 8px;
+  width: 25%;
+  padding: 20px;
   text-align: center;
+  margin-bottom: 20px;
 }
