@@ -85,7 +85,7 @@ body {
 
 .second-section {
   background-color: #f9faf8;
-  padding: 40px 80px;
+  padding: 60px 120px;
   text-align: center;
 }
 
@@ -106,8 +106,41 @@ body {
   background-color: #fff;
   border: 2px solid #3b82f6;
   border-radius: 8px;
-  width: 25%;
-  padding: 20px;
+  width: 20%;
+  height: auto;
   text-align: center;
   margin-bottom: 20px;
+}
+
+.second-info-box img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-bottom: 1px solid #3b82f6;
+}
+
+.second-info-box span {
+  display: block;
+  font-size: 16px;
+  color: #6b7280;
+}
+
+.third-section {
+  padding: 60px 120px;
+  background-color: #e5e7eb;
+  text-align: center;
+}
+
+.quote-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+blockquote p {
+  margin-bottom: 20px;
+}
+
+blockquote span {
+  font-size: 20px;
+  color: #6b7280;
 }
