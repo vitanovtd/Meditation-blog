@@ -1,0 +1,93 @@
+/* // css round courners */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.hero-section {
+  background-color: #1f2937;
+  padding: 60px 120px;
+}
+
+.header-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.header-links a {
+  text-decoration: none;
+  color: #f9faf8;
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+.header-logo {
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.main-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-container {
+  max-width: 45%;
+}
+
+.main-info h3 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.main-paragraph {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-bottom: 20px;
+}
+
+.button-signup {
+  background-color: #3b82f6;
+  color: #f9faf8;
+  border: none;
+  width: 100px;
+  height: 40px;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.image-container {
+  width: 50%;
+  height: 300px;
+  overflow: hidden;
+}
+
+.main-image {
+  width: 100%;
+
+  object-fit: cover;
+  height: 100%;
+  /* overflow: hidden; */
+}
+
+.main-section {
+  background-color: #f9faf8;
+  padding: 40px 80px;
+}
+
+.main-section p {
+  text-align: center;
+}
