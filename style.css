@@ -34,7 +34,7 @@ body {
 }
 
 .header-links a:hover {
-  color: #3b82f6;
+  color: #f0531c;
 }
 
 .main-info {
@@ -110,7 +110,7 @@ body {
 
 .second-info-box {
   background-color: #fff;
-  border: 2px solid #3b82f6;
+  border: 2px solid #e4e7eb;
   border-radius: 8px;
   width: 20%;
   height: auto;
@@ -123,7 +123,7 @@ body {
   width: 100%;
   height: auto;
   object-fit: cover;
-  border-bottom: 1px solid #3b82f6;
+  border-bottom: 1px solid #e4e7eb;
 }
 
 .second-info-box span {
@@ -162,7 +162,7 @@ blockquote span {
 }
 
 .fourth-signin {
-  background-color: #1c79b8;
+  background-color: #f0531c;
   display: flex;
   justify-content: space-between;
   border-radius: 8px;
@@ -180,7 +180,7 @@ blockquote span {
   padding: 10px 20px;
   margin: auto;
   /* height: 30px; */
-  border: 2px solid #e5e7eb;
+  /* border: 2px solid #e5e7eb; */
   border-radius: 8px;
   color: #1c79b8;
   cursor: pointer;
@@ -188,7 +188,7 @@ blockquote span {
 }
 
 .fourth-section button:hover {
-  background-color: #1c79b8;
+  background-color: #1f2937;
   color: #e5e7eb;
 }
 
