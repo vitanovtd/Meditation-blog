@@ -137,10 +137,67 @@ body {
 }
 
 blockquote p {
+  font-style: light italic;
   margin-bottom: 20px;
+  color: #1f2937;
 }
 
 blockquote span {
   font-size: 20px;
   color: #6b7280;
+  margin-left: 350px;
+}
+
+.fourth-section {
+  padding: 60px 120px;
+  background-color: #f9faf8;
+  text-align: center;
+}
+
+.fourth-signin {
+  background-color: #1c79b8;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 8px;
+  padding: 30px 60px;
+}
+
+.fourth-section p {
+  font-size: 18px;
+  padding: 20px 40px;
+  flex: 1;
+}
+
+.fourth-section button {
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: auto;
+  /* height: 30px; */
+  border: 2px solid #e5e7eb;
+  border-radius: 8px;
+  color: #1c79b8;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.fourth-section button:hover {
+  background-color: #1c79b8;
+  color: #e5e7eb;
+}
+
+.footer {
+  background-color: #1f2937;
+  text-align: center;
+  color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  min-height: 60px;
+  /* display: block; */
+}
+
+.footer p {
+  margin: 0;
+  font-size: 16px;
 }
